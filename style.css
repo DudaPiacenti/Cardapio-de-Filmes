@@ -1,0 +1,145 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: pink;
+}
+#titulo{
+    margin-left: 400px;
+    background-color: rgb(247, 139, 157);
+    margin-right: 400px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    background-color: rgb(247, 139, 157);
+    margin-right: 300px;
+    margin-left: 300px;
+}
+/* Filmes em desatques */
+#destaq{
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(247, 139, 157);
+}
+#alan{
+    margin-top: 30px;
+}
+#alantxt{
+    background-color: rgb(200, 105, 121);
+    margin-left:80px;
+    margin-right: 1090px;
+    text-align: center;
+}
+#alanzoca{
+    margin-left: 100px;
+}
+#fnaf{
+    margin-top: 30px;
+}
+#fnaftxt{
+    background-color: rgb(200, 105, 121);
+    margin-top: -50px;
+    margin-left: -140px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+#filmeruim{
+    margin-left: 300px;
+    margin-top: -215px;
+    margin-bottom: 140px;
+}
+#arcoiris{
+    margin-left: 500px;
+    margin-top: -300px;
+}
+#dier2txt{
+    background-color: rgb(200, 105, 121);
+    margin-left: -10px;
+    margin-bottom: 100px;
+    margin-right: 700px;
+    text-align: center;
+}
+#BJ{
+    margin-left: 330px;
+    margin-top: -150px;
+}
+#BJTXT{
+    background-color: rgb(200, 105, 121);
+    margin-left: 320px;
+    margin-bottom: 100px;
+    margin-right: 550px;
+    text-align: center;
+}
+#emjimg{
+    margin-left: 840px;
+    margin-top: -700px;
+}
+#emjtxt{
+    background-color: rgb(200, 105, 121);
+    margin-left: 800px;
+    margin-bottom: 100px;
+    margin-right: 350px;
+    text-align: center;
+}
+#emj{
+    margin-top: -155px;
+}
+#BFimg{
+    margin-left: 1000px;
+    margin-top: -800px;
+}
+#BF{
+    margin-top: -170px;
+}
+#BFtxt{
+    background-color: rgb(200, 105, 121);
+    margin-left: 990px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    text-align: center;
+}
+#internetimg{
+    margin-left: 1150px;
+    margin-top: -800px;
+}
+#cellbitkkk{
+    margin-top: -153px;
+}
+#internetxt{
+    background-color: rgb(200, 105, 121);
+    margin-left: 1140px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    text-align: center;
+}
+section{
+    height: 300px;
+}
+.hover{
+    width: 100px;
+}
+.conteiner:hover .hover{
+    transform: scale(1.1);
+    transition: 0.3;
+}
+.emjimg2 {
+    margin-left: 840px;
+    margin-top: -100px; /* Evite usar valores negativos muito altos, pode quebrar o layout */
+}
+
+.emjtxt2 {
+    background-color: rgb(200, 105, 121);
+    margin: 0 350px 100px 800px; /* shorthand para margin-top, right, bottom, left */
+    text-align: center;
+}
+
+.emj2 {
+    background-color: rgb(247, 139, 157);
+    margin-top: 1000px; /* Valor muito alto — pode ser necessário revisar essa escolha */
+}
+
+.melhores {
+    background-color: rgb(247, 139, 157);
+}
