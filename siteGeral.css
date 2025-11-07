@@ -54,3 +54,13 @@ h2{
 .logo{
     margin-left: 500px;
 }
+#creditos{
+    background-color: rgb(226, 116, 135);
+    margin-left: 640px;
+    margin-right: 620px;
+    padding: 10px;
+    border-radius: 30px;
+}
+a{
+    color:aliceblue;
+}
