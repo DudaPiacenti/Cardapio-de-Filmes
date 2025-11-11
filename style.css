@@ -1,145 +1,69 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: pink;
+    background-image: url(Imagens/Fund6.png);
+    margin: 0;
+    padding: 0;
 }
-#titulo{
-    margin-left: 400px;
-    background-color: rgb(247, 139, 157);
-    margin-right: 400px;
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(Imagens/Fundo4.png);
+    padding: 20px;
 }
-h1{
+#tituloh1{
     text-align: center;
+    margin: 0;
 }
 h2{
     text-align: center;
-    background-color: rgb(247, 139, 157);
-    margin-right: 300px;
-    margin-left: 300px;
+    background-color: rgb(226, 116, 135);
+    margin: 0;
+    padding: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);    
 }
-/* Filmes em desatques */
-#destaq{
-    margin-top: 70px;
-    margin-left: 100px;
-    margin-right: 100px;
-    background-color: rgb(247, 139, 157);
+.filmes-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
 }
-#alan{
-    margin-top: 30px;
-}
-#alantxt{
-    background-color: rgb(200, 105, 121);
-    margin-left:80px;
-    margin-right: 1090px;
+.filme{
+    background-color: rgb(212, 104, 122);
+    border-radius: 12px;
+    width: 140px;
     text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-#alanzoca{
-    margin-left: 100px;
-}
-#fnaf{
-    margin-top: 30px;
-}
-#fnaftxt{
-    background-color: rgb(200, 105, 121);
-    margin-top: -50px;
-    margin-left: -140px;
-    margin-bottom: 100px;
-    text-align: center;
-}
-#filmeruim{
-    margin-left: 300px;
-    margin-top: -215px;
-    margin-bottom: 140px;
-}
-#arcoiris{
-    margin-left: 500px;
-    margin-top: -300px;
-}
-#dier2txt{
-    background-color: rgb(200, 105, 121);
-    margin-left: -10px;
-    margin-bottom: 100px;
-    margin-right: 700px;
-    text-align: center;
-}
-#BJ{
-    margin-left: 330px;
-    margin-top: -150px;
-}
-#BJTXT{
-    background-color: rgb(200, 105, 121);
-    margin-left: 320px;
-    margin-bottom: 100px;
-    margin-right: 550px;
-    text-align: center;
-}
-#emjimg{
-    margin-left: 840px;
-    margin-top: -700px;
-}
-#emjtxt{
-    background-color: rgb(200, 105, 121);
-    margin-left: 800px;
-    margin-bottom: 100px;
-    margin-right: 350px;
-    text-align: center;
-}
-#emj{
-    margin-top: -155px;
-}
-#BFimg{
-    margin-left: 1000px;
-    margin-top: -800px;
-}
-#BF{
-    margin-top: -170px;
-}
-#BFtxt{
-    background-color: rgb(200, 105, 121);
-    margin-left: 990px;
-    margin-bottom: 100px;
-    margin-right: 200px;
-    text-align: center;
-}
-#internetimg{
-    margin-left: 1150px;
-    margin-top: -800px;
-}
-#cellbitkkk{
-    margin-top: -153px;
-}
-#internetxt{
-    background-color: rgb(200, 105, 121);
-    margin-left: 1140px;
-    margin-bottom: 100px;
-    margin-right: 50px;
-    text-align: center;
-}
-section{
-    height: 300px;
-}
-.hover{
+.filme img{
     width: 100px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
 }
-.conteiner:hover .hover{
+.filme:hover{
     transform: scale(1.1);
-    transition: 0.3;
+    cursor: pointer;
 }
-.emjimg2 {
-    margin-left: 840px;
-    margin-top: -100px; /* Evite usar valores negativos muito altos, pode quebrar o layout */
+.filme p{
+    margin-top: 8px;
+    font-weight: bold;
+    color: white;
 }
-
-.emjtxt2 {
-    background-color: rgb(200, 105, 121);
-    margin: 0 350px 100px 800px; /* shorthand para margin-top, right, bottom, left */
-    text-align: center;
+.logo{
+    margin-left: 500px;
 }
-
-.emj2 {
-    background-color: rgb(247, 139, 157);
-    margin-top: 1000px; /* Valor muito alto — pode ser necessário revisar essa escolha */
+#creditos{
+    background-color: rgb(226, 116, 135);
+    margin-left: 640px;
+    margin-right: 620px;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
-.melhores {
-    background-color: rgb(247, 139, 157);
+a{
+    color:aliceblue;
 }
